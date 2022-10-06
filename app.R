@@ -3,7 +3,7 @@
 # Last updated: October 6, 2022
 #
 # References:
-# Attali, Dan (2022). Need any more reason to love R-Shiny? Here: you can even use
+# Attali, Dean (2016). Need any more reason to love R-Shiny? Here: you can even use
 #    Shiny to create simple games! https://deanattali.com/blog/shiny-game-lightsout/.
 # Wickham, Hadley (2020). Mastering Shiny. https://mastering-shiny.org/index.html.
 
