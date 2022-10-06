@@ -18,7 +18,7 @@ The goal is to have the user reflect upon the following questions:
 - What happens if you change how many coins a player can remove in a turn?
 
 # Authorship
-This code and app was developed for the Fields Academy at The Fields Instutute for Research in Mathematical Sciences. \
+This code and app were developed for the Fields Academy at The Fields Instutute for Research in Mathematical Sciences. \
 Author: Emma Kroell, https://www.emmakroell.ca \
 Copyright: The Fields Instutute for Research in Mathematical Sciences, http://www.fields.utoronto.ca/activities/academy
 
