@@ -31,6 +31,17 @@ ui <- fluidPage(
       hidden(radioButtons("move","Your move", seq(1,3),
                           selected = character(0))),  # make this depend on k
       hidden(textOutput("text")),
+      hr(),
+      HTML(
+        paste("This is a two-player game. Click the start button to begin.",
+              "<br>","<br>", "<b>", "Basic set-up:", "</b>",
+              "You have 16 coins in a pile. You and your opponent take turns
+              removing 1, 2, or 3 coins from the pile. The winner is the
+              person who removes the last coin.", "<br>", "<br>","<b>",
+              "Customizations:", "</b>", "You can change the number of coins in the pile at the
+        start of the game, the maximum number a player can remove on their turn,
+        and who goes first (you or the computer)."
+        ))
     ),
     mainPanel(plotOutput("coinplot"))
       # outputs
@@ -49,6 +60,8 @@ server <- function(input, output,session) {
     hide("text")
     values$n <- as.numeric(input$n)
     values$k <- as.numeric(input$k)
+    # keep player from setting k > n:
+    if (values$k > values$n) values$k <- as.numeric(input$n)
     # plot initial coins
     output$coinplot <- renderPlot({
       if (is.numeric(values$n)) plot_coins(input$n,values$n)
