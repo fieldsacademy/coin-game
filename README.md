@@ -8,7 +8,7 @@ Author: Emma Kroell, https://www.emmakroell.ca \
 Copyright: The Fields Instutute for Research in Mathematical Sciences, http://www.fields.utoronto.ca/activities/academy
 
 # Game rules
-This is a two-player games. You have 16 coins in a pile. You and your opponent take turns removing 1, 2, or 3 coins from the pile.
+This is a two-player game. You have 16 coins in a pile. You and your opponent take turns removing 1, 2, or 3 coins from the pile.
 The winner is the person who removes the last coin. 
 
 The app allows you to change the number of coins in the pile at the start of the game, the maximum number a player can remove on their turn, and
