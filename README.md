@@ -3,9 +3,9 @@
 Code to implement coin game in R, and create R shiny app. \
 Play the game here: https://fieldsacademy.shinyapps.io/coin-game/
 
-This code and app were developed for the Fields Academy at The Fields Instutute for Research in Mathematical Sciences. \
+This code and app were developed for the Fields Academy at The Fields Institute for Research in Mathematical Sciences. \
 Author: Emma Kroell, https://www.emmakroell.ca \
-Copyright: The Fields Instutute for Research in Mathematical Sciences, http://www.fields.utoronto.ca/activities/academy
+Copyright: The Fields Institute for Research in Mathematical Sciences, http://www.fields.utoronto.ca/activities/academy
 
 # Game rules
 This is a two-player game. You have 16 coins in a pile. You and your opponent take turns removing 1, 2, or 3 coins from the pile.
